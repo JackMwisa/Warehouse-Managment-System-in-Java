@@ -20,7 +20,11 @@ public class MainMenu {
 
     // function to login in as a client
     public void loginAsClient(){
-        
+
+        System.out.print("Enter you name: ");
+        String enteredClientUserName = input.nextLine();
+        System.out.println("Enter your password");
+        String enteredClientPassword = input.nextLine();
 
     }
 
