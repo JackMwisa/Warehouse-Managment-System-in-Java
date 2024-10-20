@@ -4,8 +4,8 @@ public class Client extends User {
 
     private double balance;
 
-    public Client(String username, String password, String type) {
-        super();
+    public Client(String username, String password) {
+        super(username, password, "Client");
         this.balance = 0;
     }
 

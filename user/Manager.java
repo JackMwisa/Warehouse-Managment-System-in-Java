@@ -4,8 +4,8 @@ public class Manager extends User{
     private double accountBalance;
 
 
-    public Manager(String username, String password, String type) {
-        super(username, password, type);
+    public Manager(String username, String password) {
+        super(username, password, "Manager");
         this.accountBalance = 0;
     }
 
